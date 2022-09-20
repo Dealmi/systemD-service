@@ -1,0 +1,13 @@
+[Unit]
+Description=Chef-client launcher
+After=network.target auditd.service
+
+[Service]
+Type=exec
+PIDFile=/var/run/chefClient.pid
+EnvironmentFile=/etc/chef/chefClient.conf
+ExecStart=+/usr/local/bin/chef-cl.sh $PERIOD
+
+[Install]
+WantedBy=multi-user.target
+Alias=chefClient.service

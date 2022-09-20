@@ -1,0 +1,36 @@
+{
+  "name": "chef-init",
+  "description": "Installs, configures and runs chef-client service",
+  "long_description": "",
+  "maintainer": "Exness",
+  "maintainer_email": "denis.mironov@exness.com",
+  "license": "All Rights Reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.0.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+    [
+      ">= 16.0"
+    ]
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ],
+  "eager_load_libraries": true
+}
